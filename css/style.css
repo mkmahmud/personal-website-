@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Fredoka+One&family=Lobster+Two&display=swap');
 
 body{
     margin: 0px;
@@ -174,4 +175,57 @@ body{
 }
 .image img{
     width: 100%;
+}
+
+.get-my-update{
+    text-align: center;
+    margin-top: 100px;
+}
+.get-my-update h2{ 
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+}
+.get-my-update p{ 
+    padding: 10px 300px;
+}
+.subscription{
+    width: 70%;
+    margin: auto;
+    background: #b7eaedad;
+    padding: 76px 10px;
+}
+.subscription input{
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    background: #c7c7c7;
+    border-radius: 4px 0px 0px 4px;
+    outline: none;
+}
+.subscription button{
+    font-size: 20px;
+    border: none;
+    background: red;
+    color: white;
+    padding: 10px 22px;
+    margin-left: -5px;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    padding: 30px 0px;
+    margin-top: 100px;
+}
+
+footer h1{
+    font-size: 50px;
+    color: tomato;
+    font-family: 'Lobster Two', cursive;
+}
+
+footer p{
+    font-size: 16px ;
+    color: white;
 }
