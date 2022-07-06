@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Merriweather:wght@300&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-image: url("../IMG/flood-6.jpeg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.innder-header{
+    text-align: center;
+    background: linear-gradient(#0000001a, #0000009e);
+    height: 100vh;
+}
+
+.innder-header h1{
+    font-family: 'Merriweather', serif;
+    color: white;
+    padding-top: 175px;
+    font-size: 60px;
+}
+
+.innder-header p{
+    font-family: 'Archivo', sans-serif;
+    color: #eafffd;
+    padding: 10px 250px;
+    font-size: 18px;
+}
+
+.innder-header button{
+    padding: 10px;
+    background: tomato;
+    border: none;
+    border-radius: 3px;
+}
+.innder-header button a{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: arial black;
+    text-decoration: none;
+}
