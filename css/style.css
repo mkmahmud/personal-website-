@@ -59,10 +59,7 @@ body{
 .donate p{
     padding: 5px 150px;
 }
-.donate ul{
-    /* display: flex; */
-    /* background: red; */
-}
+
 .donate ul li{
     list-style: none;
     display: inline-block;
@@ -112,7 +109,6 @@ body{
 .donate-plan p {
     margin-bottom: 50px;
 }
-.donate-plan ul{}
 .donate-plan ul li{
     list-style: none;
     display: inline-block;
@@ -128,7 +124,6 @@ body{
 .donate-plan ul li h4{
     font-size: 30px;
 }
-.donate-plan ul li p{}
 
 #donate-plan-one{
     background-color: #b3ffb2d1;
@@ -175,6 +170,33 @@ body{
 }
 .image img{
     width: 100%;
+}
+
+.testimonial{
+    text-align: center;
+    /* background: #df0067; */
+    margin-top: 100px;
+    padding: 20px 0px;
+    /* color: white; */
+}
+.testimonial h2{
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+}
+.testimonials{
+    display: flex;
+}
+.single-testimonial{
+    display: inline-block;
+    /* text-align: left; */
+    margin: 20px;
+    background: red;
+    padding: 18px;
+    border-radius: 10px;
+}
+.single-testimonial img{
+    width: 70px;
+    border-radius: 50%;
 }
 
 .get-my-update{
