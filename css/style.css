@@ -99,3 +99,42 @@ body{
     font-family: arial black;
     text-decoration: none;
 }
+
+.donate-plan{
+    text-align: center;
+    margin-top: 100px;
+}
+.donate-plan h2{
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+}
+.donate-plan p {
+    margin-bottom: 50px;
+}
+.donate-plan ul{}
+.donate-plan ul li{
+    list-style: none;
+    display: inline-block;
+    width: 28%;
+    padding: 20px;
+    text-align: left;
+    border-radius: 5px;
+    margin: 10px;
+}
+.donate-plan ul li img{
+    width: 100px;
+}
+.donate-plan ul li h4{
+    font-size: 30px;
+}
+.donate-plan ul li p{}
+
+#donate-plan-one{
+    background-color: #b3ffb2d1;
+}
+#donate-plan-sec{
+    background-color: #ccb2ffd1;
+}
+#donate-plan-third{
+    background-color: #ffb2d9d1;
+}
