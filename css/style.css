@@ -34,13 +34,66 @@ body{
 }
 
 .innder-header button{
-    padding: 10px;
+    padding: 10px 20px;
     background: tomato;
     border: none;
     border-radius: 3px;
 }
 .innder-header button a{
     color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: arial black;
+    text-decoration: none;
+}
+
+.donate{
+    text-align: center;
+    margin-top: 100px;
+}
+.donate h2{
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+}
+.donate p{
+    padding: 5px 150px;
+}
+.donate ul{
+    /* display: flex; */
+    /* background: red; */
+}
+.donate ul li{
+    list-style: none;
+    display: inline-block;
+    background: #c5c5c5;
+    padding: 20px;
+    font-size: 25px;
+    margin: 10px;
+}
+
+#selected-donate{    
+    background: #00c1324d;
+    border: 2px solid #038d26;
+
+}
+
+.custom-donate{
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid #777;
+    text-align: center;
+    padding: 10px;
+    outline: none;
+}
+.donate button{
+    padding: 10px 20px;
+    background: black;
+    border: none;
+    border-radius: 3px;
+    margin: 50px;
+}
+.donate button a{
+    color: rgb(245, 245, 245);
     font-weight: bold;
     font-size: 20px;
     font-family: arial black;
